@@ -1,0 +1,141 @@
+main {
+    .container-jumbotron {
+        width: 1200px;
+        color: white;
+        background-color: white;
+        margin: 0 auto;
+        margin-bottom: 120px;
+
+        .banner-text {
+            margin-top: 40px;
+        }
+
+        .h1-banner-text {
+            color: $text_color;
+            font-size: 45px;
+            text-align: left;
+        }
+
+        .p-banner-text {
+            color: $text_color;
+            font-size: 22px;
+            padding-top: 50px;
+            text-align: left;
+        }
+
+        .img-jumbotron {
+            width: 570px;
+            height: 350px;
+            float: right;
+            margin: -390PX auto 0;
+            object-fit: fill;
+        }
+
+        .sign-up-button {
+            margin-top: 40px;
+            flex-direction: row;
+            margin-bottom: 20px;
+        }
+
+        small {
+            color: #bdc9db;
+            font-size: 15px;
+        }
+
+        .sign-up-button button {
+            background-color: $button_signup;
+            color: $primary_color;
+            font-size: 15px;
+            padding: 5px;
+            border-radius: 10px;
+            padding-right: 30px;
+            padding-left: 30px;
+        }
+
+        .link-email {
+            color: $text_color;
+            padding-top: 100px;
+            text-decoration: none;
+        }
+    }
+
+    .container-page-1, .container-page-2 {
+        background-color: $background_page1;
+        width: 100%;
+        padding-bottom: 100px;
+        // border-bottom: 1px solid  #bdb5af;
+    }
+
+    .container-page-1, {
+        padding-bottom: 90px;
+    }
+
+    .text-page-1, .text-page-2 {
+        text-align: center;
+        font-size: 26px;
+        color: $text_color;
+        padding-top: 100px;
+    }
+
+    .img {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .img img {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        width: 150px;
+        height: 150px;
+        margin-top: 70px;
+    }
+
+    .img p {
+        padding-top: 10px;
+        color: $text_color;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .img3-centre, .img6-centre {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 225px;
+        height: 225px;
+        margin-top: 70px;
+    }
+    .final-text-page-2 h2 {
+        color: $text_color;
+        padding-top: 80px;
+        text-align: center;
+    }
+    .container-page-3,  {
+        display: flex;
+        flex-direction: row;
+        padding-top: 150px;
+    }
+
+    .text-page-3 {
+            font-size: 26px;
+            padding-right: 90px;
+            color: $text_color;
+        }
+    .text-page-3 p {
+            font-size: 20px;
+            color: $text_color;
+            padding-top: 20px;
+        }
+    .text-page-3 p a {
+            font-size: 20px;
+            color: #304895;
+        }
+    .text-page-3 img{
+            padding-top: 40px;
+            padding-left: 25px;
+        }
+
+
+}
